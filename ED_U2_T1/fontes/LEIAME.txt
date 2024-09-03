@@ -1,0 +1,57 @@
+# fontes
+
+Projeto submetido à avaliação institucional, possuindo valor acadêmico  para o componente curricular DCT0008 - Estruturas de dados do curso Sistemas de Informação da Universidade Federal do Rio Grande do Norte Campus Caicó (CERES).
+Códigos utilizados para obtenção dos resultados apresentados no relatório produzido.
+
+- Linguagem de programação: C
+- Desenvolvedora: Giovanna Kailany de Melo
+
+#### Compilação
+
+Algoritmo desenvolvido em ambiente Linux, para compilá-lo e rodá-lo utilize os comandos ("make" e "make run"), respectivamente; ou siga o passo a passo:
+
+	gcc -c *.c
+	gcc *.c -o programa
+    ./programa
+
+### Execução e plotagem de gráficos
+
+Selecione uma das opções:
+
+    Opção 1  - Árvore binária average
+    Opção 2  - Árvore binária worst
+    Opção 3  - Árvore AVL average
+    Opção 4  - Árvore AVL worst
+    Opção 5  - Tabela de dispersão average
+    Opção 6  - Tabela de dispersão worst
+
+Torne executáveis os seguintes arquivos:    
+    chmod +x plot_aba.sh
+    chmod +x plot_abw.sh
+    chmod +x plot_avla.sh
+    chmod +x plot_avlw.sh
+    chmod +x plot_tda.sh
+    chmod +x plot_tdw.sh
+
+Execute os arquivos:
+    ./plot_aba.sh
+    ./plot_abw.sh
+    ./plot_avla.sh
+    ./plot_avlw.sh
+    ./plot_tda.sh
+    ./plot_tdw.sh    
+
+
+Para gerar os gráficos comparativos execute:
+
+    chmod +x plot_abac.sh
+    chmod +x plot_avlac.sh
+    chmod +x plot_tdac.sh
+    chmod +x plot_aaa.sh
+    chmod +x plot_aaw.sh
+
+    ./plot_abac.sh
+    ./plot_avlac.sh
+    ./plot_tdac.sh
+    ./plot_aaa.sh
+    ./plot_aaw.sh
