@@ -1,0 +1,80 @@
+# fontes
+
+Projeto submetido à avaliação institucional, possuindo valor acadêmico  para o componente curricular DCT0008 - Estruturas de dados do curso Sistemas de Informação da Universidade Federal do Rio Grande do Norte Campus Caicó (CERES).
+Códigos utilizados para obtenção dos resultados apresentados no relatório produzido.
+
+- Linguagem de programação: C
+- Desenvolvedora: Giovanna Kailany de Melo
+
+#### Compilação
+
+Algoritmo desenvolvido em ambiente Linux, para compilá-lo e rodá-lo utilize os comandos ("make" e "make run"), respectivamente; ou siga o passo a passo:
+
+	gcc -c *.c
+	gcc *.c -o programa
+    ./programa
+
+### Execução e plotagem de gráficos
+
+Selecione uma das opções:
+
+    Opção 1  - Selection sort
+    Opção 2  - Insertion sort best
+    Opção 3  - Insertion sort average
+    Opção 4  - Insertion sort worst
+    Opção 5  - Merge sort
+    Opção 6  - Quick sort best
+    Opção 7  - Quick sort average
+    Opção 8  - Quick sort worst
+    Opção 9  - Distribution sort menor k
+    Opção 10 - Distribution sort average
+    Opção 11 - Distribution sort maior k
+
+Torne executáveis os seguintes arquivos:    
+    chmod +x plot_ss.sh
+    chmod +x plot_isb.sh
+    chmod +x plot_isa.sh
+    chmod +x plot_isw.sh
+    chmod +x plot_ms.sh
+    chmod +x plot_qsb.sh
+    chmod +x plot_qsa.sh
+    chmod +x plot_qsw.sh
+    chmod +x plot_dsb.sh
+    chmod +x plot_dsa.sh
+    chmod +x plot_dsw.sh
+
+Execute os arquivos:
+    ./plot_ss.sh
+    ./plot_isb.sh
+    ./plot_isa.sh
+    ./isw.sh
+    ./plot_ms.sh
+    ./plot_qsb.sh
+    ./plot_qsa.sh
+    ./plot_qsw.sh
+    ./plot_dsb.sh
+    ./plot_dsa.sh
+    ./plot_dsw.sh
+
+
+Para gerar os gráficos comparativos execute:
+
+    chmod +x plot_isac.sh
+    chmod +x plot_qsac.sh
+    chmod +x plot_dsac.sh
+    chmod +x plot_aab.sh
+    chmod +x plot_imqdb.sh
+    chmod +x plot_aaa.sh
+    chmod +x plot_mqda.sh
+    chmod +x plot_aaw.sh
+    chmod +x plot_mdw.sh
+
+    ./plot_isac.sh
+    ./plot_qsac.sh
+    ./plot_dsac.sh
+    ./plot_aab.sh
+    ./plot_imqdb.sh
+    ./plot_aaa.sh
+    ./plot_mqda.sh
+    ./plot_aaw.sh
+    ./plot_mdw.sh
